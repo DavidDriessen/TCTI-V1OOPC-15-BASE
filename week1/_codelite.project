@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="05-07-rectangle" InternalType="Console">
+<CodeLite_Project Name="week1" InternalType="Console">
   <Plugins>
     <Plugin Name="qmake">
       <![CDATA[00010001N0005Debug000000000000]]>
@@ -21,11 +21,18 @@
   <Dependencies/>
   <VirtualDirectory Name="src">
     <File Name="main.cpp"/>
+    <File Name="circle.cpp"/>
+    <File Name="circle.hpp"/>
+    <File Name="filled_rectangle.cpp"/>
+    <File Name="filled_rectangle.hpp"/>
+    <File Name="grafiek.cpp"/>
+    <File Name="grafiek.hpp"/>
     <File Name="line.cpp"/>
     <File Name="line.hpp"/>
-    <File Name="print_line.cpp"/>
     <File Name="rectangle.cpp"/>
     <File Name="rectangle.hpp"/>
+    <File Name="window.cpp"/>
+    <File Name="window.hpp"/>
   </VirtualDirectory>
   <Settings Type="Executable">
     <GlobalSettings>
