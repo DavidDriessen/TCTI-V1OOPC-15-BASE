@@ -1,30 +1,13 @@
-// template
-
-#include <iostream>
-
 #include "window.hpp"
-#include "line.hpp"
-#include "rectangle.hpp"
-#include "circle.hpp"
-#include "filled_rectangle.hpp"
+#include "grafiek.hpp"
 
-int main(int argc, char **argv){
-   window w( 1128, 164, 2 );
-   /*
-   line diagonal_line( w, 5, 5, 30, 40 );
-   diagonal_line.print();
+int main(int argc, char **argv) {
+    window w(228, 264, 2);
 
-   rectangle box( w, 20, 10, 30, 20 );
-   box.print();
-*/
-   filled_rectangle filled_box( w, 20, 10, 50, 50 );
-   filled_box.print();
+    int g[4] = {30, 50, 60, 20};
 
-   filled_rectangle linned_box( w, 70, 10, 100, 50 );
-   linned_box.printLinned();
-   /*
-   circle ball( w, 70, 30, 20 );
-   ball.print();
-   */
-   return 0;
+    grafiek grafiek1(w, 20, 10, 100, 100);
+    grafiek1.print(4, g);
+
+    return 0;
 }
