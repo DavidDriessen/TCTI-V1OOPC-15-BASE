@@ -18,11 +18,12 @@ void grafiek::print(int size, int *lines) {
     filled_rectangle *pillar[size];
 
     rand.print();
+    int marge = (width / size);
     for (int i = 0; i < size; i++) {
         pillar[i] = new filled_rectangle(w,
-                                         (xStart + ((width / size) * i) + (width / size / 2)),
+                                         (xStart + (marge * i) + (marge / 2)),
                                          (yStart + height),
-                                         (xStart + (width / size) * (i + 1)),
+                                         (xStart + marge * (i + 1)),
                                          (yStart + height - lines[i]));
         pillar[i]->print();
     }
