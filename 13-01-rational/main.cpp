@@ -1,5 +1,5 @@
 #include "ostream"
-#include "catch_with_main.hpp"
+#include "../Catch/include/catch_with_main.hpp"
 #include "rational.hpp"
 
 TEST_CASE( "constructor, two_parameters" ){
@@ -90,7 +90,7 @@ TEST_CASE( "multiply rational into rational; reduction" ){
 
 TEST_CASE( "multiply rational into rational; return value" ){
    rational v( 3, 10 );
-   rational x = ( v *= rational( 1, 2 )); 
+   rational x = ( v *= rational( 1, 2 ));
    REQUIRE( x == rational( 3, 20 ) );     
 }
 
