@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/OLED/drawable.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OLED/circle.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OLED/wall.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OLED/circle.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OLED/ball.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OLED/rectangle.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OLED/vector.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OLED/rectangle.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OLED/wall.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OLED/vector.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OLED/victim.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OLED/drawable.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OLED/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OLED/ball.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OLED/line.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OLED/victim.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OLED/line.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file://C:/MinGW/lib/gcc/mingw32/4.9.3/include" />
+          <root url="file://C:/MinGW/lib/gcc/mingw32/4.9.3/include-fixed" />
+          <root url="file://C:/MinGW/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://C:/MinGW/lib/gcc/mingw32/4.9.3/include" />
+          <root url="file://C:/MinGW/lib/gcc/mingw32/4.9.3/include-fixed" />
+          <root url="file://C:/MinGW/include" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

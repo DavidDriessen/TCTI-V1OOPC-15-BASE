@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ 21-05-mirror -  ]----------"
-	@cd "21-05-mirror" && "$(MAKE)" -f  "21-05-mirror.mk"
+	@echo "----------Building project:[ 21-04-window -  ]----------"
+	@cd "21-04-window" && "$(MAKE)" -f  "21-04-window.mk"
 clean:
-	@echo "----------Cleaning project:[ 21-05-mirror -  ]----------"
-	@cd "21-05-mirror" && "$(MAKE)" -f  "21-05-mirror.mk" clean
+	@echo "----------Cleaning project:[ 21-04-window -  ]----------"
+	@cd "21-04-window" && "$(MAKE)" -f  "21-04-window.mk" clean
