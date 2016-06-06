@@ -50,34 +50,11 @@ Discarded input sections
  .group         0x00000000        0x8 main.o
  .group         0x00000000        0x8 main.o
  .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
- .group         0x00000000        0x8 main.o
  .text          0x00000000        0x0 main.o
  .data          0x00000000        0x0 main.o
  .bss           0x00000000        0x0 main.o
  .text._ZN5hwlib19_pin_in_dummy_class3getEv
                 0x00000000        0x4 main.o
- .text._ZN5hwlib20_pin_out_dummy_class3setEb
-                0x00000000        0x2 main.o
  .text._ZN5hwlib23_pin_in_out_dummy_class3setEb
                 0x00000000        0x2 main.o
  .text._ZN5hwlib23_pin_in_out_dummy_class3getEv
@@ -92,8 +69,6 @@ Discarded input sections
                 0x00000000        0x4 main.o
  .text._ZN5hwlib7ostream5flushEv
                 0x00000000        0x2 main.o
- .text._ZN3due7pin_out3setEb
-                0x00000000        0xe main.o
  .text._ZN5hwlib7ostream6fillerEi
                 0x00000000       0x1a main.o
  .text._ZN5hwliblsERNS_7ostreamEPKc
@@ -102,12 +77,12 @@ Discarded input sections
                 0x00000000       0xd4 main.o
  .text._ZN5hwliblsERNS_7ostreamERKNS_8locationE
                 0x00000000       0x34 main.o
- .text._ZN5hwlib6window5clearEv
-                0x00000000       0x32 main.o
+ .text._ZN5hwlib6window5writeENS_8locationENS_5colorE
+                0x00000000       0x3e main.o
  .text._ZN5hwlib4line4drawERNS_6windowE
                 0x00000000       0xa4 main.o
  .text._ZN5hwlib6circle4drawERNS_6windowE
-                0x00000000      0x30c main.o
+                0x00000000      0x2ec main.o
  .text._ZN5hwlib4randEv
                 0x00000000       0x20 main.o
  .text._ZN5hwlib15random_in_rangeEjj
@@ -122,23 +97,17 @@ Discarded input sections
                 0x00000000       0x28 main.o
  .text._ZN5hwlib4kittERNS_11port_in_outEi
                 0x00000000       0x54 main.o
- .text._ZN5hwlib4kittERNS_8port_outEi
-                0x00000000       0x4e main.o
  .text._ZN5hwlib4kittERNS_7port_ocEi
                 0x00000000       0x4e main.o
  .text._ZN5hwlib21graphics_random_linesERNS_6windowE
-                0x00000000       0xe0 main.o
+                0x00000000       0xe8 main.o
  .text._ZN5hwlib23graphics_random_circlesERNS_6windowE
                 0x00000000       0x8c main.o
  .text._ZN5hwlib9uart_putcEc
                 0x00000000       0x3c main.o
  .text._ZN5hwlib20cout_using_uart_putc4putcEc
                 0x00000000        0xa main.o
- .text._ZlsRN5hwlib7ostreamERK8drawable
-                0x00000000       0x24 main.o
  .rodata._ZTVN5hwlib19_pin_in_dummy_classE
-                0x00000000        0xc main.o
- .rodata._ZTVN5hwlib20_pin_out_dummy_classE
                 0x00000000        0xc main.o
  .rodata._ZTVN5hwlib23_pin_in_out_dummy_classE
                 0x00000000       0x18 main.o
@@ -150,26 +119,20 @@ Discarded input sections
                 0x00000000        0xc main.o
  .rodata._ZTVN5hwlib6circleE
                 0x00000000        0xc main.o
- .rodata._ZTVN3due7pin_outE
-                0x00000000        0xc main.o
  .bss._ZGVZN5hwlib9uart_putcEcE3pin
                 0x00000000        0x4 main.o
  .data._ZN5hwlib12pin_in_dummyE
                 0x00000000        0x4 main.o
  .data._ZN5hwlib16pin_in_out_dummyE
                 0x00000000        0x4 main.o
+ .data._ZN5hwlib12pin_oc_dummyE
+                0x00000000        0x4 main.o
  .bss._ZZN5hwlib9uart_putcEcE3pin
                 0x00000000        0xc main.o
  .bss._ZZN5hwlib4randEvE1n
                 0x00000000        0x4 main.o
- .data._ZN5hwlib13pin_out_dummyE
-                0x00000000        0x4 main.o
  .data._ZN5hwlib4coutE
                 0x00000000       0x14 main.o
- .rodata._ZN5hwlibL11transparentE
-                0x00000000        0x4 main.o
- .data._ZN5hwlib12pin_oc_dummyE
-                0x00000000        0x4 main.o
  .text          0x00000000        0x0 bmptk_cortex.o
  .data          0x00000000        0x0 bmptk_cortex.o
  .bss           0x00000000        0x0 bmptk_cortex.o
@@ -221,7 +184,7 @@ END GROUP
                 [!provide]                PROVIDE (__ram_size, __ram_size)
                 [!provide]                PROVIDE (__ram_end, __ram_end)
 
-.text           0x00000000      0xe60
+.text           0x00000000      0x5a0
                 0x00000000                . = ALIGN (0x4)
                 0x00000000                __text_start = .
                 [!provide]                PROVIDE (__text_start, __text_start)
@@ -231,198 +194,147 @@ END GROUP
                 0x00000000                __vectors
                 0x00000020                . = ALIGN (0x4)
  *(.text .text.* .gnu.linkonce.t.*)
- .text._ZN3due6pin_oc3getEv
-                0x00000020       0x10 main.o
-                0x00000020                due::pin_oc::get()
- .text._ZN3due6pin_oc3setEb
-                0x00000030       0x10 main.o
-                0x00000030                due::pin_oc::set(bool)
- .text._ZN8drawable6updateEv
-                0x00000040        0x2 main.o
-                0x00000040                drawable::update()
- .text._ZN8drawable8interactERS_
-                0x00000042        0x2 main.o
-                0x00000042                drawable::interact(drawable&)
- .text._ZN4wall6updateEv
-                0x00000044       0x14 main.o
-                0x00000044                wall::update()
- .text._ZN4ball6updateEv
-                0x00000058       0x12 main.o
-                0x00000058                ball::update()
- *fill*         0x0000006a        0x2 
- .text.unlikely._ZN3due8pin_infoENS_4pinsE.part.8
-                0x0000006c       0x10 main.o
- .text._ZNK5hwlib5coloreqES0_
-                0x0000007c       0x36 main.o
-                0x0000007c                hwlib::color::operator==(hwlib::color) const
- .text._ZN5hwlib6window5writeENS_8locationENS_5colorE
-                0x000000b2       0x3e main.o
-                0x000000b2                hwlib::window::write(hwlib::location, hwlib::color)
- .text._ZN5hwlib6window5writeENS_8locationE
-                0x000000f0       0x14 main.o
-                0x000000f0                hwlib::window::write(hwlib::location)
- .text._ZN6circle4drawEv
-                0x00000104      0x158 main.o
-                0x00000104                circle::draw()
- .text._ZN4line4drawEv
-                0x0000025c       0xb6 main.o
-                0x0000025c                line::draw()
- .text._ZN9rectangle4drawEv
-                0x00000312       0x24 main.o
-                0x00000312                rectangle::draw()
- .text._ZN4wall4drawEv
-                0x00000336       0x50 main.o
-                0x00000336                wall::draw()
- .text._ZN5hwlib9glcd_oled7commandEhhh
-                0x00000386       0x30 main.o
-                0x00000386                hwlib::glcd_oled::command(unsigned char, unsigned char, unsigned char)
- .text._ZN5hwlib9glcd_oled5clearEv
-                0x000003b6       0x5a main.o
-                0x000003b6                hwlib::glcd_oled::clear()
- .text._ZN5hwlib9glcd_oled20write_implementationENS_8locationENS_5colorE
-                0x00000410       0xd0 main.o
-                0x00000410                hwlib::glcd_oled::write_implementation(hwlib::location, hwlib::color)
+ .text._ZN5hwlib20_pin_out_dummy_class3setEb
+                0x00000020        0x2 main.o
+                0x00000020                hwlib::_pin_out_dummy_class::set(bool)
+ .text._ZN5hwlib18port_out_from_pins14number_of_pinsEv
+                0x00000022        0x4 main.o
+                0x00000022                hwlib::port_out_from_pins::number_of_pins()
+ .text._ZN5hwlib18port_out_from_pins3setEj
+                0x00000026       0x26 main.o
+                0x00000026                hwlib::port_out_from_pins::set(unsigned int)
+ .text._ZN5hwlib5hc59514number_of_pinsEv
+                0x0000004c        0x4 main.o
+                0x0000004c                hwlib::hc595::number_of_pins()
+ .text._ZN3due6pin_in3getEv
+                0x00000050       0x10 main.o
+                0x00000050                due::pin_in::get()
+ .text._ZN3due7pin_out3setEb
+                0x00000060        0xe main.o
+                0x00000060                due::pin_out::set(bool)
+ .text._ZN11pin_out_all3setEb
+                0x0000006e       0x1e main.o
+                0x0000006e                pin_out_all::set(bool)
+ .text._ZN14pin_out_invert3setEb
+                0x0000008c        0xc main.o
+                0x0000008c                pin_out_invert::set(bool)
+ .text.unlikely._ZN3due8pin_infoENS_4pinsE.part.6
+                0x00000098       0x10 main.o
+ .text._ZN5hwlib5hc5955flushEv
+                0x000000a8       0x1c main.o
+                0x000000a8                hwlib::hc595::flush()
+ .text._ZN5hwlib5hc5958_one_pin3setEb
+                0x000000c4       0x1e main.o
+                0x000000c4                hwlib::hc595::_one_pin::set(bool)
+ .text._ZN5hwlib5hc5953setEj
+                0x000000e2        0xa main.o
+                0x000000e2                hwlib::hc595::set(unsigned int)
  .text._ZN3due14port_registersEi
-                0x000004e0       0x48 main.o
-                0x000004e0                due::port_registers(int)
- .text._ZN3due6pin_ocC2ENS_4pinsE
-                0x00000528       0x38 main.o
-                0x00000528                due::pin_oc::pin_oc(due::pins)
-                0x00000528                due::pin_oc::pin_oc(due::pins)
+                0x000000ec       0x48 main.o
+                0x000000ec                due::port_registers(int)
+ .text._ZN3due7pin_outC2ENS_4pinsE
+                0x00000134       0x38 main.o
+                0x00000134                due::pin_out::pin_out(due::pins)
+                0x00000134                due::pin_out::pin_out(due::pins)
+ *fill*         0x0000016c        0x4 
  .text._ZN5hwlib7wait_usEi
-                0x00000560       0x28 main.o
-                0x00000560                hwlib::wait_us(int)
- .text._ZN5hwlib26i2c_bus_bit_banged_scl_sda16wait_half_periodEv.isra.11
-                0x00000588        0xa main.o
- .text._ZN5hwlib26i2c_bus_bit_banged_scl_sda11write_startEv
-                0x00000592       0x24 main.o
-                0x00000592                hwlib::i2c_bus_bit_banged_scl_sda::write_start()
- .text._ZN5hwlib26i2c_bus_bit_banged_scl_sda9write_bitEb
-                0x000005b6       0x30 main.o
-                0x000005b6                hwlib::i2c_bus_bit_banged_scl_sda::write_bit(bool)
- .text._ZN5hwlib26i2c_bus_bit_banged_scl_sda10write_byteEj
-                0x000005e6       0x1c main.o
-                0x000005e6                hwlib::i2c_bus_bit_banged_scl_sda::write_byte(unsigned int)
- .text._ZN5hwlib26i2c_bus_bit_banged_scl_sda8read_bitEv
-                0x00000602       0x3c main.o
-                0x00000602                hwlib::i2c_bus_bit_banged_scl_sda::read_bit()
- .text._ZN5hwlib26i2c_bus_bit_banged_scl_sda10write_stopEv
-                0x0000063e       0x40 main.o
-                0x0000063e                hwlib::i2c_bus_bit_banged_scl_sda::write_stop()
- .text._ZN5hwlib26i2c_bus_bit_banged_scl_sda5writeEjPKhj
-                0x0000067e       0x3a main.o
-                0x0000067e                hwlib::i2c_bus_bit_banged_scl_sda::write(unsigned int, unsigned char const*, unsigned int)
- .text._ZN5hwlib26i2c_bus_bit_banged_scl_sda4readEjPhj
-                0x000006b8       0x60 main.o
-                0x000006b8                hwlib::i2c_bus_bit_banged_scl_sda::read(unsigned int, unsigned char*, unsigned int)
+                0x00000170       0x28 main.o
+                0x00000170                hwlib::wait_us(int)
+ .text._ZN5hwlib33spi_bus_bit_banged_sclk_mosi_miso14write_and_readERNS_7pin_outEiPKhPh
+                0x00000198       0xa2 main.o
+                0x00000198                hwlib::spi_bus_bit_banged_sclk_mosi_miso::write_and_read(hwlib::pin_out&, int, unsigned char const*, unsigned char*)
  .text._ZN5hwlib7wait_msEi
-                0x00000718       0x16 main.o
-                0x00000718                hwlib::wait_ms(int)
- .text._ZN8drawable8overlapsERKS_
-                0x0000072e       0x58 main.o
-                0x0000072e                drawable::overlaps(drawable const&)
- .text._ZN6victim8interactER8drawable
-                0x00000786       0x28 main.o
-                0x00000786                victim::interact(drawable&)
- .text._ZN4ball8interactER8drawable
-                0x000007ae       0x22 main.o
-                0x000007ae                ball::interact(drawable&)
- .text._ZN4lineC2ERN5hwlib6windowERKNS0_8locationES5_
-                0x000007d0       0x40 main.o
-                0x000007d0                line::line(hwlib::window&, hwlib::location const&, hwlib::location const&)
-                0x000007d0                line::line(hwlib::window&, hwlib::location const&, hwlib::location const&)
- .text._ZN9rectangleC2ERN5hwlib6windowERKNS0_8locationES5_S3_
-                0x00000810       0xbc main.o
-                0x00000810                rectangle::rectangle(hwlib::window&, hwlib::location const&, hwlib::location const&, hwlib::location)
-                0x00000810                rectangle::rectangle(hwlib::window&, hwlib::location const&, hwlib::location const&, hwlib::location)
- .text._ZN6victim8drawLineEN5hwlib8locationES1_
-                0x000008cc       0xaa main.o
-                0x000008cc                victim::drawLine(hwlib::location, hwlib::location)
- .text._ZN6victim4drawEv
-                0x00000976       0x70 main.o
-                0x00000976                victim::draw()
- *fill*         0x000009e6        0x2 
+                0x0000023a       0x16 main.o
+                0x0000023a                hwlib::wait_ms(int)
+ .text._ZN5hwlib4kittERNS_8port_outEi
+                0x00000250       0x4e main.o
+                0x00000250                hwlib::kitt(hwlib::port_out&, int)
+ *fill*         0x0000029e        0x2 
+ .text._ZN2HCC2Ev
+                0x000002a0       0xcc main.o
+                0x000002a0                HC::HC()
+                0x000002a0                HC::HC()
  .text.startup.main
-                0x000009e8      0x2b0 main.o
-                0x000009e8                main
+                0x0000036c       0xb4 main.o
+                0x0000036c                main
  .text.__startup
-                0x00000c98       0x48 bmptk_cortex.o
-                0x00000c98                __startup
-                0x00000ce0                . = ALIGN (0x4)
+                0x00000420       0x48 bmptk_cortex.o
+                0x00000420                __startup
+                0x00000468                . = ALIGN (0x4)
  *(.glue_7t .glue_7)
- .glue_7        0x00000ce0        0x0 linker stubs
- .glue_7t       0x00000ce0        0x0 linker stubs
-                0x00000ce0                . = ALIGN (0x4)
+ .glue_7        0x00000468        0x0 linker stubs
+ .glue_7t       0x00000468        0x0 linker stubs
+                0x00000468                . = ALIGN (0x4)
  *(.rodata .rodata.* .gnu.linkonce.r.*)
- .rodata._ZTVN5hwlib26i2c_bus_bit_banged_scl_sdaE
-                0x00000ce0       0x10 main.o
-                0x00000ce0                vtable for hwlib::i2c_bus_bit_banged_scl_sda
- .rodata._ZTVN5hwlib9glcd_oledE
-                0x00000cf0       0x10 main.o
-                0x00000cf0                vtable for hwlib::glcd_oled
- .rodata._ZTVN3due6pin_ocE
-                0x00000d00       0x10 main.o
-                0x00000d00                vtable for due::pin_oc
- .rodata._ZTV4line
-                0x00000d10       0x14 main.o
-                0x00000d10                vtable for line
- .rodata._ZTV9rectangle
-                0x00000d24       0x14 main.o
-                0x00000d24                vtable for rectangle
- .rodata._ZTV4wall
-                0x00000d38       0x14 main.o
-                0x00000d38                vtable for wall
- .rodata._ZTV4ball
-                0x00000d4c       0x14 main.o
-                0x00000d4c                vtable for ball
- .rodata._ZTV6victim
-                0x00000d60       0x14 main.o
-                0x00000d60                vtable for victim
- .rodata._ZZN5hwlib9glcd_oledC4ERNS_7i2c_busEjE13init_sequence
-                0x00000d74       0x29 main.o
-                0x00000d74                hwlib::glcd_oled::glcd_oled(hwlib::i2c_bus&, unsigned int)::init_sequence
+ .rodata._ZTVN5hwlib20_pin_out_dummy_classE
+                0x00000468        0xc main.o
+                0x00000468                vtable for hwlib::_pin_out_dummy_class
+ .rodata._ZTVN5hwlib18port_out_from_pinsE
+                0x00000474       0x10 main.o
+                0x00000474                vtable for hwlib::port_out_from_pins
+ .rodata._ZTVN5hwlib33spi_bus_bit_banged_sclk_mosi_misoE
+                0x00000484        0xc main.o
+                0x00000484                vtable for hwlib::spi_bus_bit_banged_sclk_mosi_miso
+ .rodata._ZTVN5hwlib5hc5958_one_pinE
+                0x00000490        0xc main.o
+                0x00000490                vtable for hwlib::hc595::_one_pin
+ .rodata._ZTVN5hwlib5hc595E
+                0x0000049c       0x10 main.o
+                0x0000049c                vtable for hwlib::hc595
+ .rodata._ZTVN3due6pin_inE
+                0x000004ac        0xc main.o
+                0x000004ac                vtable for due::pin_in
+ .rodata._ZTVN3due7pin_outE
+                0x000004b8        0xc main.o
+                0x000004b8                vtable for due::pin_out
+ .rodata._ZTV11pin_out_all
+                0x000004c4        0xc main.o
+                0x000004c4                vtable for pin_out_all
+ .rodata._ZTV14pin_out_invert
+                0x000004d0        0xc main.o
+                0x000004d0                vtable for pin_out_invert
  .rodata.str1.1
-                0x00000d9d       0x1d main.o
+                0x000004dc       0x1d main.o
  .rodata._ZN3dueL14pin_info_arrayE
-                0x00000dba       0xa4 main.o
-                0x00000e60                . = ALIGN (0x4)
- *fill*         0x00000e5e        0x2 
+                0x000004f9       0xa4 main.o
+                0x000005a0                . = ALIGN (0x4)
+ *fill*         0x0000059d        0x3 
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00000e60                . = ALIGN (0x4)
+                0x000005a0                . = ALIGN (0x4)
  *(.gcc_except_table)
-                0x00000e60                . = ALIGN (0x4)
+                0x000005a0                . = ALIGN (0x4)
  *(.eh_frame_hdr)
-                0x00000e60                . = ALIGN (0x4)
+                0x000005a0                . = ALIGN (0x4)
  *(.eh_frame)
-                0x00000e60                . = ALIGN (0x4)
-                0x00000e60                __text_end = .
+                0x000005a0                . = ALIGN (0x4)
+                0x000005a0                __text_end = .
                 [!provide]                PROVIDE (__text_end, __text_end)
 
-.vfp11_veneer   0x00000e60        0x0
- .vfp11_veneer  0x00000e60        0x0 linker stubs
+.vfp11_veneer   0x000005a0        0x0
+ .vfp11_veneer  0x000005a0        0x0 linker stubs
 
-.v4_bx          0x00000e60        0x0
- .v4_bx         0x00000e60        0x0 linker stubs
+.v4_bx          0x000005a0        0x0
+ .v4_bx         0x000005a0        0x0 linker stubs
 
-.iplt           0x00000e60        0x0
- .iplt          0x00000e60        0x0 main.o
+.iplt           0x000005a0        0x0
+ .iplt          0x000005a0        0x0 main.o
 
-.rel.dyn        0x00000e60        0x0
- .rel.iplt      0x00000e60        0x0 main.o
+.rel.dyn        0x000005a0        0x0
+ .rel.iplt      0x000005a0        0x0 main.o
 
 .IF_YOU_SEE_THIS_YOU_HAVE_ONE_OR_MORE_GLOBAL_OBJECT_CONSTRUCTORS
  *(.init)
  *(.preinit_array)
  *(SORT(.init_array.*))
  *(.init_array)
-                0x00000e60                . = ALIGN (0x4)
-                0x00000e60                __exidx_start = .
+                0x000005a0                . = ALIGN (0x4)
+                0x000005a0                __exidx_start = .
                 [!provide]                PROVIDE (__exidx_start, __exidx_start)
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x00000e60                . = ALIGN (0x4)
-                0x00000e60                __exidx_end = .
+                0x000005a0                . = ALIGN (0x4)
+                0x000005a0                __exidx_end = .
                 [!provide]                PROVIDE (__exidx_end, __exidx_end)
 
 .bss            0x20000000    0x12000
@@ -450,29 +362,32 @@ END GROUP
                 0x20012000                __bss_end = .
                 [!provide]                PROVIDE (__bss_end, __bss_end)
 
-.data           0x20012000        0x0 load address 0x00000e60
+.data           0x20012000        0x4 load address 0x000005a0
                 0x20012000                . = ALIGN (0x4)
-                0x00000e60                __data_init_start = LOADADDR (.data)
+                0x000005a0                __data_init_start = LOADADDR (.data)
                 [!provide]                PROVIDE (__data_init_start, __data_init_start)
                 0x20012000                __data_start = .
                 [!provide]                PROVIDE (__data_start, __data_start)
                 0x20012000                . = ALIGN (0x4)
  *(.data .data.* .gnu.linkonce.d.*)
-                0x20012000                . = ALIGN (0x4)
-                0x20012000                __data_end = .
+ .data._ZN5hwlib13pin_out_dummyE
+                0x20012000        0x4 main.o
+                0x20012000                hwlib::pin_out_dummy
+                0x20012004                . = ALIGN (0x4)
+                0x20012004                __data_end = .
                 [!provide]                PROVIDE (__data_end, __data_end)
-                0x00000e60                __data_init_end = LOADADDR (.data)
+                0x000005a0                __data_init_end = LOADADDR (.data)
                 [!provide]                PROVIDE (__data_init_end, __data_init_end)
-                0x00000000                PROVIDE (__data_size, (__data_end - __data_start))
-                0x00000000                PROVIDE (__data_init_size, __data_size)
+                0x00000004                PROVIDE (__data_size, (__data_end - __data_start))
+                0x00000004                PROVIDE (__data_init_size, __data_size)
                 [!provide]                PROVIDE (__data_init_end, (__data_init_start + __data_init_size))
 
-.igot.plt       0x20012000        0x0 load address 0x00000e60
- .igot.plt      0x20012000        0x0 main.o
-                0x20012000                . = ALIGN (0x4)
-                0x20012000                __heap_start = .
+.igot.plt       0x20012004        0x0 load address 0x000005a4
+ .igot.plt      0x20012004        0x0 main.o
+                0x20012004                . = ALIGN (0x4)
+                0x20012004                __heap_start = .
                 [!provide]                PROVIDE (__heap_start, __heap_start)
-                0x20012000                . = ALIGN (0x4)
+                0x20012004                . = ALIGN (0x4)
                 0x20018000                __heap_end = __ram_end
                 [!provide]                PROVIDE (__heap_end, __heap_end)
 
